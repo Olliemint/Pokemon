@@ -1,19 +1,70 @@
 {
-  "posts": [
+  "pokemons": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+      "name": "Bulbasaur",
+      "description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+      "types": ["Grass","Poison"],
+      "weaknessess": ["Fire","Psychic","Flying","Ice"]
+      
+    },
+     {
+       "id": 2,
+       "name": "Charmeleon",
+       "description": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png",
+       "types": ["Fire"],
+       "weaknessess": ["Water", "Ground", "Rock"]
+     },
+      {
+        "id": 3,
+        "name": "Charizard",
+        "description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png",
+        "types": ["Fire", "Flying"],
+        "weaknessess": ["Water", "Electric", "Rock"]
+      },
+       {
+         "id": 4,
+         "name": "Squirtle",
+         "description": "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
+         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
+         "types": ["Water"],
+         "weaknessess": ["Grass", "Electric"]
+       },
+        {
+          "id": 5,
+          "name": "Wartortle",
+          "description": "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
+          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+          "types": ["Water"],
+          "weaknessess": ["Grass", "Electric"]
+        },
+         {
+           "id": 6,
+           "name": "Blastoise",
+           "description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
+           "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+           "types": ["Water"],
+           "weaknessess": ["Grass", "Electric"]
+         },
+          {
+            "id": 7,
+            "name": "Caterpie",
+            "description": "For protection, it releases a horrible stench from the antenna on its head to drive away enemies.",
+            "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+            "types": ["Bug"],
+            "weaknessess": ["Fire","Flying", "Rock"]
+          },
+           {
+             "id": 8,
+             "name": "Butterfree",
+             "description": "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
+             "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
+             "types": ["Bug", "Flying"],
+             "weaknessess": ["Fire", "Electric", "Flying", "Ice", "Rock"]
+           }
+  ]
+ 
 }
