@@ -54,7 +54,9 @@ html{
 .center-section{
     height: 100vh;
     width: 70%;
-   background-color: #FFFFFF;
+    background-image: url("./assets/pokemonassests/container_bg.png");
+    background-position: center;
+    background-color: #FFFFFF;
    border-top: 2px solid #eceaea;
    padding-top: 30px;
    display: flex;
@@ -196,4 +198,82 @@ html{
     font-size: 2em;
 
 }
+
+/* 
+pokemon- list section */
+
+.pokemon-list{
+    background-image: url("./assets/homeassets/body_bg.png");
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.main-section{
+    background-image: url("./assets/pokemonassests/container_bg.png");
+    background-position: center;
+    background-color: #FFFFFF;
+    width: 77%;
+}
+.add-pokemon{
+    color: #919191;
+    font-weight: 400;
+    font-size: 24px;
+}
+.new-pokemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.add-pokemon{
+    height: 8vh;
+    background-color: #FFFFFF;
+    width: 52rem;
+    border-top: 1px solid #919191;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+.search-section{
+    height: 21vh;
+    background-color: #313131;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.search-form{
+    color: #FFFFFF;
+}
+.search-form input{
+    height: 5vh;
+    width: 32vh;
+}
+.search-form button{
+    color: #FFFFFF;
+    background-color: #EA632A;
+    width: 3.5em;
+    height: 5vh;
+    border: 1px solid #EA632A;
+    margin-left: 1rem;
+    border-radius: 4px;
+
+}
+.search-form label{
+    font-size: 25px;
+    font-weight: 200;
+}
+.search-details{
+    background-color: #4DAD5B;
+    width: 27rem;
+    height: 6rem;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px 10px;
+}
+
 
