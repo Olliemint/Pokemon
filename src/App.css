@@ -34,3 +34,17 @@ html{
     font-weight: 500;
 
 }
+/* home section */
+.home{
+    background-image: url("./assets/homeassets/body_bg.png");
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.center-section{
+    height: 100vh;
+    width: 70%;
+   background-color: aliceblue;
+   border-top: 2px solid #eceaea;
+}

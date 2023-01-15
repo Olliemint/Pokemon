@@ -12,19 +12,19 @@ const Navbar = () => {
           <NavLink to="/pokemon">Pokédex</NavLink>
         </li>
         <li>
-          <NavLink to="/pokemon">Video Games</NavLink>
+          <NavLink to="/video-games">Video Games</NavLink>
         </li>
         <li>
-          <NavLink to="/pokemon">Trading Cards</NavLink>
+          <NavLink to="/trading-cards">Trading Cards</NavLink>
         </li>
         <li>
-          <NavLink to="/pokemon">Pokemon TV</NavLink>
+          <NavLink to="/pokemon-tv">Pokemon TV</NavLink>
         </li>
         <li>
-          <NavLink to="/pokemon">Pokemon events</NavLink>
+          <NavLink to="/pokemon-events">Pokemon events</NavLink>
         </li>
         <li>
-          <NavLink to="/pokemon">News</NavLink>
+          <NavLink to="/news">News</NavLink>
         </li>
       </ul>
     </div>
