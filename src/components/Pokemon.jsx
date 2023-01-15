@@ -2,8 +2,11 @@ import React from 'react'
 
 const Pokemon = () => {
   return (
-    <div>
-      <h1>Pokemon List - Welcome </h1>
+      <div className='to-center'>
+          <div className="box">
+              <h1>Comming soon</h1>
+          </div>
+      
     </div>
   );
 }

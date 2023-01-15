@@ -34,6 +34,15 @@ html{
     font-weight: 500;
 
 }
+.navbar a.active{
+    color: #E3350E;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: italic;
+    
+    
+
+}
 /* home section */
 .home{
     background-image: url("./assets/homeassets/body_bg.png");
@@ -171,6 +180,20 @@ html{
 }
 .details-3{
     padding: 10px 16px;
+
+}
+.to-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3em;
+
+}
+.box h1{
+    color: #e95f0f;
+    font-weight: 700;
+    font-size: 2em;
 
 }
 
