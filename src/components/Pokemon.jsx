@@ -2,8 +2,10 @@ import React from 'react'
 
 const Pokemon = () => {
   return (
-    <div>Pokemon</div>
-  )
+    <div>
+      <h1>Pokemon List - Welcome </h1>
+    </div>
+  );
 }
 
 export default Pokemon
