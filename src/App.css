@@ -250,6 +250,7 @@ pokemon- list section */
 .search-form input{
     height: 5vh;
     width: 32vh;
+    border-radius: 5px;
 }
 .search-form button{
     color: #FFFFFF;
@@ -276,10 +277,19 @@ pokemon- list section */
     padding: 15px 10px;
 }
 .pokemon-card{
-    width: 23vh;
-    height: 23vh;
+    width: 25vh;
+    height: 25vh;
+    border-radius: 5px;
     background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.pokemon-card img{
+    width: 205px;
+    height: 205px;
+}
+
 .pokemon-groups{
     display: flex;
     justify-content: center;
@@ -292,6 +302,29 @@ pokemon- list section */
     display: flex;
     justify-content: center;
     gap: 1rem;
+    flex-wrap: wrap;
+}
+.props{
+    padding: 2px 20px;
+
+}
+.btns{
+
+    display: flex;
+    gap: 0.2rem;
+}
+.btns button{
+    width: 5rem;
+    color: #FFFFFF;
+    background-color: #BA80C9;
+    border-radius: 4px;
+    font-size: 10px;
+    border: #BA80C9;
+    height: 2.5em;
+}
+.props small {
+    color: #919191;
+    font-weight:400;
 }
 
 

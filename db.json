@@ -2,6 +2,7 @@
   "pokemons": [
     {
       "id": 1,
+      "number": "0001",
       "name": "Bulbasaur",
       "description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
@@ -11,6 +12,7 @@
     },
      {
        "id": 2,
+       "number": "0002",
        "name": "Charmeleon",
        "description": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png",
@@ -19,6 +21,7 @@
      },
       {
         "id": 3,
+        "number": "0003",
         "name": "Charizard",
         "description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png",
@@ -27,6 +30,7 @@
       },
        {
          "id": 4,
+         "number": "0004",
          "name": "Squirtle",
          "description": "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
          "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
@@ -35,6 +39,7 @@
        },
         {
           "id": 5,
+          "number": "0005",
           "name": "Wartortle",
           "description": "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
           "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
@@ -43,6 +48,7 @@
         },
          {
            "id": 6,
+           "number": "0006",
            "name": "Blastoise",
            "description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
            "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
@@ -51,14 +57,16 @@
          },
           {
             "id": 7,
+            "number": "0007",
             "name": "Caterpie",
             "description": "For protection, it releases a horrible stench from the antenna on its head to drive away enemies.",
             "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
             "types": ["Bug"],
-            "weaknessess": ["Fire","Flying", "Rock"]
+            "weaknessess": ["Fire", "Flying", "Rock"]
           },
            {
              "id": 8,
+             "number": "0008",
              "name": "Butterfree",
              "description": "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
              "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
