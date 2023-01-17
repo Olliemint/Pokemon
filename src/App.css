@@ -219,11 +219,18 @@ pokemon- list section */
     color: #919191;
     font-weight: 400;
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.add-pokemon button{
+    margin-top: -16px;
 }
 .new-pokemon{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 
 }
 .add-pokemon{
@@ -348,6 +355,8 @@ pokemon- list section */
     font-size: 15px;
     border: none;
     cursor: pointer;
+    margin-top: 15px;
+
 }
 .back-icon{
     height: 12px;
@@ -442,6 +451,9 @@ pokemon- list section */
 }
 .des p{
     font-size: 15px;
+}
+.types-select{
+    margin-top: 15px;
 }
 
 

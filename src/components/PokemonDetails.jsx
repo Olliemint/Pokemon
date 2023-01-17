@@ -28,6 +28,7 @@ const PokemonDetails = () => {
               <MdArrowBackIos className="back-icon" />
               Back
             </button>
+
           </Link>
           <div className="top">
             <p>{pokemon.name}</p>
