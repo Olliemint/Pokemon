@@ -1,18 +1,17 @@
 {
   "pokemons": [
     {
-      "id": 1,
       "number": "0001",
+      "id": 1,
       "name": "Bulbasaur",
       "description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
-      "types": ["Grass","Poison"],
-      "weaknessess": ["Fire","Psychic","Flying","Ice"]
-      
+      "types": ["Grass", "Poison"],
+      "weaknessess": ["Fire", "Psychic", "Flying", "Ice"]
     },
      {
-       "id": 2,
        "number": "0002",
+       "id": 2,
        "name": "Charmeleon",
        "description": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png",

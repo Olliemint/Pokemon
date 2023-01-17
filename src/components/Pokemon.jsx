@@ -1,29 +1,11 @@
-import { useState,useEffect } from "react";
 import { FaSearch } from "react-icons/fa";
 import PokemonCard from "./PokemonCard";
 
+import { Link } from "react-router-dom"
 
 
-const Pokemon = () => {
-    const [pokemons, Setpokemons] = useState([])
 
-
-    useEffect(() => { 
-        const FetchedPokemon = async () => { 
-            const Pokemonarray = await getPokemon();
-            Setpokemons(Pokemonarray)
-        }
-        FetchedPokemon()
-    },[])
-    
-    console.log(pokemons);
-    
-    const getPokemon = async () => {
-        const response = await fetch("http://localhost:3000/pokemons");
-        const data = response.json();
-        return data
-    }
-
+const Pokemon = ({ pokemons }) => {
   return (
     <div className="pokemon-list">
       <div className="my-pokemons">
@@ -55,7 +37,9 @@ const Pokemon = () => {
         <div className="pokemon-groups">
           <div className="card-holder">
             {pokemons.map((pokemon) => (
-                <PokemonCard pokemon={pokemon} />
+              <Link to={`/pokemon/${pokemon.id}`}>
+                <PokemonCard pokemon={pokemon} key={pokemon.id} />
+              </Link>
             ))}
           </div>
         </div>
